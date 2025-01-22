@@ -1,0 +1,174 @@
+body {
+  background-color: #111217;
+ 
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  padding: 0;
+  background-color: #111217;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+ 
+}
+
+.logo{
+  display: flex;
+  padding: 10px;
+}
+
+nav{
+  grid-column: span 12;
+ 
+}
+
+nav ul{
+  color: white;
+  text-align: right;
+  margin: 40px;
+}
+
+nav li{
+   display: inline; 
+  text-decoration: none;
+border: 2px;
+margin: 2px;
+border: 12px;
+  
+}
+
+nav li a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav li :hover{
+  text-decoration: underline;
+}
+
+
+header{
+text-align: center;
+grid-column: span 12;
+}
+
+
+.billboard{
+  text-align: center;
+  color: white;
+}
+
+.baby{
+  color:#E2967C;
+}
+
+.mix{
+  color: white;
+}
+
+main{
+  grid-column: span 12;
+   background-color: #555555;
+  border-radius: 10px;
+  margin-top: 120px;
+  
+}
+
+.section1 {
+  padding-left: 80px ;
+  color: white;
+}
+
+
+.topdes{
+font-weight: bolder;
+text-transform: uppercase;
+}
+
+span{
+  color: #E2967C;
+}
+
+.Subdes {
+  font-style: italic;
+  font-weight: lighter;
+}
+
+#section2 {
+grid-template-columns: 1fr 1fr 1fr ;
+display: grid;
+background-color: #555555;
+padding: 30px;
+border-radius: 10px;
+text-align: center;
+
+}
+
+
+.spacing {
+  padding-top: 10px;
+
+}
+
+footer{
+grid-column: span 12;
+  color: white;
+  display: grid;
+width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-align: justify;
+  border: 0;
+  padding-top: 80px;
+ 
+}
+
+.section3 {
+  text-align: left;
+}
+
+article{
+  padding-top: 20px;
+}
+
+.section4 {
+  text-align: right;
+}
+
+/* Contact Form*/
+
+.contactform{
+grid-column: span 12;
+text-align: center;
+grid-template-rows: 1fr 1fr;
+background-color: white;
+background-image: url(background.jpg);
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 8px;
+padding-right: 8px;
+margin: 0;
+border: 0;
+height: 100%;
+width: 100%;
+}
+
+.email {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin: 0;
+  border: 0;
+
+}
+
+.message {
+  padding-bottom: 20px;
+}
+
+.button{
+  padding-top: 20px;
+  text-align: center;
+}
