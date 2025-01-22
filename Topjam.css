@@ -57,9 +57,12 @@ grid-column: span 12;
 
 
 .billboard{
-  text-align: center;
+   font-family: "Montserrat", serif;
+  font-weight: bolder ;
+   text-align: center;
   color: white;
 }
+
 
 .baby{
   color:#E2967C;
@@ -161,14 +164,23 @@ width: 100%;
   padding-bottom: 20px;
   margin: 0;
   border: 0;
+  font-family: "Montserrat", serif;
+  font-weight: bolder ;
+   text-align: center;
+
 
 }
 
 .message {
   padding-bottom: 20px;
+   font-family: "Montserrat", serif;
+  font-weight: bolder ;
+   text-align: center;
+
 }
 
 .button{
   padding-top: 20px;
   text-align: center;
+
 }
