@@ -1,0 +1,321 @@
+body{
+   background-color: FFFFFF; 
+}
+
+#wrapper{
+    width: 1200px;
+    border: 1px solid rgb(92, 92, 92);
+    margin: 24px auto;
+    background-color: rgb(255, 255, 255);
+    display:grid;
+    grid-template-columns: repeat(12 1fr);
+    grid-column-gap: 24px;
+    }
+
+nav{
+    grid-column: span 12;
+
+    }
+
+nav ul{
+    color: white;
+    text-align: center;
+    margin: 40px;
+    list-style: none;
+
+  
+}
+
+nav li{
+ display: inline;
+text-decoration: none; 
+padding: 20px;
+border: 2px;
+margin: 2px;
+border: 12px;
+
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li:hover{
+color:#2EC4B6
+}
+
+nav li:focus{
+    color: #2EC4B6;
+}
+
+nav li:active{
+    color:#2EC4B6;
+}
+
+nav li:visited{
+    color: #10564f;
+}
+
+
+#authentication{
+    display: inline;
+    text-align: right;
+    margin-left: 60px;
+    grid-template-rows: span 3;
+  
+}
+
+.Login{
+ padding: 20px;
+}
+
+.signup{
+    padding: 10px ;
+    margin: 2px ;
+    border: 20px ;
+    color: white;
+    background-color: #2EC4B6;
+}
+
+
+.circle1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    border-radius:500px;
+    opacity: .2;
+    background-color: #2EC4B6;
+    animation: circle1-ani 10s linear infinite;
+  }
+
+  @keyframes circle1-ani {
+    0%   { opacity: .0; left:0; }
+    50%  { opacity: .5; }
+    100% { opacity: .0; left: 1000px; }
+  }  
+
+header{
+    grid-column: span 12;
+    text-align: center;
+    
+}
+
+.herotext{
+ text-align: center;
+ font-size: 40px;
+ color: #393939;
+ word-break: normal;
+}
+
+h4{
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#corp{
+padding-top: 0;
+padding-bottom: 0;
+color: transparent;
+background-clip: text;
+    background-image: linear-gradient(to right, #242629, #2EC4B6);
+    font-size: xx-large;
+   
+}
+
+ transition: .1s all;
+    filter: blur(10px);
+
+ 
+.paragraph{
+    padding-top: 0;
+    margin: 0;
+    border: 0;
+    font-style: normal;
+    font-size: 16px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #575859;
+}
+
+p{
+padding: 0;
+margin: 0;
+border: 0;
+
+}
+
+.containerregister{
+padding: 20px;
+transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+
+.register:hover{
+    width: 200px;
+    background-color: #2EC4B6;
+}
+
+.register{
+    font-size: medium;
+    padding: 10px ;
+    margin: 2px ;
+    border: 20px ;
+    color: white;
+    background-color: #2EC4B6;
+    
+}
+
+
+main{
+text-align: center;
+padding: 40px;
+margin: 0;
+border: 0;
+grid-column: span 12; 
+}
+
+#slide1{
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+#slide1 img {
+width: 800px;
+ transition: all .25s;
+        }
+        
+#slide1:hover img {
+          transform: scale(1.1);
+        }
+
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+#forsection{
+  grid-column: span 12;
+   display: grid;
+    background-color: #EEEEEE;
+    grid-template-columns: 1fr 1fr 1fr ;
+   padding: 40px;
+
+}
+
+#aniprice{
+    transition: all .25s;
+    
+}
+#aniprice:hover img {
+  transform: scale(1.1);
+}
+
+#aniprice1{
+    transition: all .25s;
+}
+#aniprice1:hover img {
+  transform: scale(1.1);
+}
+
+#aniprice2{
+    transition: all .25s;
+}
+#aniprice2:hover img {
+  transform: scale(1.1);
+}
+
+section{
+    display: grid;
+    grid-column: span 12;
+}
+
+.lamisection{
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+  
+    grid-column: span 12;
+    text-align: center;
+}
+
+.lampara{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#lamparaani{
+    background-color: #9fe7df;
+    animation: back-ani 15s linear infinite;
+}
+
+@keyframes back-ani {
+    0%   {background-color:#ff0000;}
+    50%  {background-color:#0000ff;}
+    100% {background-color:#ff0000;}
+  }
+
+.adams{
+    font-weight: bold;
+}
+
+.salesoperation{
+font-style: italic;
+}
+
+#lamimg{
+transition: all .25s;
+}
+
+#lamimg:hover img {
+  transform: scale(1.1);
+}
+
+
+
+footer{
+background-color: #022C4E;
+grid-column: span 12;
+display: grid;
+}
+
+
+.footersection{
+    padding: 40px;
+text-align: left;
+color: white;
+
+}
+.footersection2{
+    text-align: left;
+    padding-left: 40px;
+    color: white;
+ 
+    
+    }
+
+    #newsletter{
+        margin: auto;
+  padding: 10px;
+  text-align: right;
+    }
+
+    textarea{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(147, 147, 147);
+    }
+    
+    .subscribe{
+        background-color: #2EC4B6;
+        color: white;
+        padding: 8px ;
+        border: 0 ;
+        margin: 0 ;
+   
+    }
