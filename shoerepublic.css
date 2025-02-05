@@ -1,0 +1,154 @@
+body{
+    background-color: #8AB0AB;
+}
+
+#wrapper{
+    margin: 24px auto;
+    width: 1200px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+}
+
+nav{
+    grid-column: span 12;
+    padding: 30px 0 10px 0;
+    margin: 0;
+    border: 0;
+    text-align: center;
+}
+
+nav ul{
+    color: black;
+    text-align: center;
+    margin: 40px;
+}
+
+nav li{
+    display: inline;
+    text-decoration: none;
+    padding: 12px;
+    border: 12px;
+    margin: 12px;
+
+
+}
+
+nav li a{
+    color: #3D3B3B;
+    text-align: right;
+    text-decoration: none;
+}
+
+.Login{
+    padding: 10px 25px 10px 25px ;
+    border: 1px ;
+    margin: 12px  ;
+    color: white;
+    background-color: #3E505B;
+    border-radius: 10px;
+}
+
+.newstyle{
+    text-align: left;
+    padding: 40px 40px 20px 0;
+}
+
+.newstylebu{
+    padding: 10px ;
+    text-decoration: none;
+   background-color: #978e29;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: transform .25s linear;
+    transform-origin: left top;
+}
+
+
+
+#newstylebu:hover {
+transform: scale(1.1);
+}
+
+main{
+    grid-column: span 12 ;
+
+}
+
+#illust{
+ width: 1200px; 
+ display: block; 
+ display: span 12;
+ padding: 0;
+ margin: 0;
+ 
+}
+#shoerepublicoverlay{
+  
+}
+
+#shoerepublicoverlay:hover {
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+}
+
+#shoe{
+    animation: shoefade 1.0s;
+}
+
+@keyframes shoefade {
+    0%   { transform: translate(0, -200px);}
+    100% { transform: translate(0, 0);}
+  }
+
+#shoe2{
+    animation: shoefade 2.0s;
+}
+
+@keyframes shoe2fade {
+    0%   { transform: translate(0, -200px);}
+    100% { transform: translate(0, 0);}
+  }
+
+#Breadcrumbs{
+   
+    transform-origin: left;
+}
+
+#Breadcrumbs:hover{
+    transform: scale(1.1);
+  } 
+
+#textarea{
+    padding-right: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+.breadcrumbdiv{
+padding-bottom: 0;
+}
+
+.green{
+    font-size: 80px;
+    color: #2B3F3F;
+    font-weight: bolder;
+    animation: greenfade 1.0s;
+    transform-origin: center;
+    transform: center;
+}
+
+  
+@keyframes greenfade {
+    0%   { transform: rotate(360deg);}
+    100% { transform: rotate(0deg);}
+  }
+
+p{
+    text-align: justify;
+    font-style: normal;
+}
