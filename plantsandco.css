@@ -1,0 +1,14 @@
+footer a{
+    color: white;
+    text-decoration: none;
+  }
+
+  footer a:hover{
+    color: black;
+  }
+
+  .social a {
+    font-size: 1.5em;
+    padding: 0.2rem;
+
+  }
