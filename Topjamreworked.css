@@ -65,7 +65,7 @@ grid-column: span 12;
 
 
 .baby{
-  color:#44cd2f;
+  color:floralwhite;
 }
 
 .mix{
@@ -92,7 +92,7 @@ text-transform: uppercase;
 }
 
 span{
-  color: #44cd2f;
+  color: floralwhite;
 }
 
 .Subdes {
@@ -110,6 +110,9 @@ text-align: center;
 
 }
 
+.acess{
+  color: white;
+}
 
 .spacing {
   padding-top: 10px;
