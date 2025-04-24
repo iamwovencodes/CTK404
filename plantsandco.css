@@ -1,3 +1,356 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p{
+  font-family: "Figtree", sans-serif;
+}
+
+.navbar{
+  border-bottom: 2px solid #67850c;
+}
+
+.nav-item a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  text-transform:capitalize;
+  margin-right: 15px;
+  transition: all 0.4s;
+  font-family: "Figtree", sans-serif;
+}
+
+.nav-item a:hover{
+color: #67850c;
+}
+
+.nav-brand{
+  height: 50px;
+  width: 100px;
+
+}
+
+.search{
+  height: 45px;
+  outline: none;
+  border: 1.5px solid #5A9C71;
+  background-color: transparent;
+  border-radius: 20px 0 0 20px;
+  border-right: none;
+  font-family: "Figtree", sans-serif;
+
+}
+
+.btn2{
+  height: 45px;
+  outline: none;
+  border: none;
+  background-color: #5A9C71;
+  color: white;
+  border-radius: 0 20px 20px 0;
+  transition: all 0.4s;
+}
+
+.btn2:hover{
+  background-color:#67850c ;
+}
+
+.bi-cart{
+  font-size: 40px;
+  color: rgb(40, 40, 40);
+  cursor: pointer;
+  padding-top: 5px;
+  transition: all 0.4s;
+}
+
+.bi-cart:hover{
+color:#67850c ;
+}
+
+.main{
+  background: url(tt.jpg)no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.main h1{
+  font-size: 4rem;
+  color: white;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main line{
+  border-bottom: 2px solid #17150e;
+  color: #67850c;
+}
+
+.main p{
+  color: #17150e;
+}
+
+.main p:nth-child(1){
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.main p:nth-child(2){
+  font-size: 18px;
+  color:white;
+}
+
+.mbtn1{
+  height: 50px;
+  width: 25%;
+  outline: none;
+  border: 1px solid white;
+  color:rgb(2, 2, 2);
+  background-color: rgba(232, 232, 232, 0);
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.mbtn1:hover{
+  background-color:#67850c  ;
+}
+
+.mbtn2{
+  height: 50px;
+  width: 25%;
+  outline: none;
+  border: none;
+  color:white;
+  background: #5A9C71;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.mbtn2:hover{
+  background-color:#67850c  ;
+}
+
+.line{
+  height: 6px;
+  width: 30%;
+  background: #67850c;
+  display: inline-block;
+}
+
+
+.product1{
+  background:gainsboro;
+}
+
+.mbtn3{
+  height: 50px;
+  width: 25%;
+  outline: none;
+  border: none;
+  color:white;
+  background: #5A9C71;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.mbtn3:hover{
+  background-color:#67850c ;
+}
+
+.star{
+  text-align: end;
+  color: orange;
+  padding-bottom: 8px;
+}
+
+
+.product .card{
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.product .card-body{
+  border: 1px dashed;
+}
+
+
+.pre1{
+  text-align: center;
+ color: rgb(123, 123, 123);
+}
+
+.mbtn4{
+  height: 50px;
+  width: 40%;
+  outline: none;
+  border: none;
+  margin: 0 auto;
+  color:white;
+  background: #5A9C71;
+  border-radius: 50px;
+  display: block;
+  transition: all 0.4s;
+  justify-content: left;
+}
+
+.mbtn4:hover{
+  outline: none;
+  border:1px solid #67850c ;
+  background: transparent;
+  color: black;
+}
+
+.head1{
+  font-family: "Figtree", sans-serif;
+  font-weight: 700 ;
+  padding-top: 10px;
+  border: none;
+  text-align: center;
+  color: #393938;
+
+}
+
+.head2{
+  font-family: "Figtree", sans-serif;
+  font-weight: 700 ;
+  padding-top: 10px;
+  border: none;
+  text-align: center;
+  justify-content: center;
+  color: #393938;
+  color: #67850c;
+  cursor: pointer;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+.head2:hover{
+  color:grey;
+  
+}
+.custom-video {
+  width: 400px; 
+  height: 450px; 
+}
+
+
+.pet{
+  justify-content: center;
+}
+
+.product2{
+  background:gainsboro;
+}
+
+
+.discount{
+  background: #5A9C71;
+  padding: 40px;
+  margin: 10px;
+  border: 0;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(18, 18, 18);
+}
+
+.disc{
+  color: gainsboro;
+}
+
+.mbtn5{
+  height: 50px;
+  width: 40%;
+  outline: none;
+  border: none;
+  margin: 0 auto;
+  color:black;
+  background: white;
+  border-radius: 50px;
+  display: block;
+  transition: all 0.4s;
+}
+
+.mbtn5:hover{
+  outline: none;
+  border:1px solid #67850c;
+  background: transparent;
+  color: white;
+}
+
+.services{
+  background: gainsboro;
+}
+
+.Services h1{
+  color: #17150e;
+}
+
+.services p:nth-child(1){
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.services p:nth-child(2){
+  font-size: 14px;
+  color:rgb(36, 35, 35);
+}
+
+.services i{
+font-size: 30px;
+}
+
+.serviecs.card{
+  border-radius: 0;
+  border:none;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.services .card:hover{
+background-color: #5A9C71;
+color: white;
+}
+
+.services .card:hover .head1{
+color: white;
+}
+
+
+/* Plantsss section*/
+
+.plantsss{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background: #5A9C71;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+}
+
 footer a{
     color: white;
     text-decoration: none;
